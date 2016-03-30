@@ -3592,6 +3592,10 @@ a[href$="#bs-sportball"] {
 	background-position: -125px -334px;
 }
 
+.flair-hooh::before, a[href^="#pk-hooh"] {
+	background-position: -30px -270px;
+}
+
 .flair-zigzagoon::before, a[href^="#pk-zigzagoon"] {
 	background-position: -541px -274px;
 }
