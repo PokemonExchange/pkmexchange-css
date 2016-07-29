@@ -3914,7 +3914,7 @@ background-position: -420px -839px;
 }
 
 .flair-hooh::before, a[href^="#pk-hooh"] {
-background-position: -29px -270px;
+background-position: -31px -270px;
 }
 
 .flair-merrygengar::before, a[href^="#pk-merrygengar"] {
@@ -4349,5 +4349,20 @@ li>code,p>code{padding:0 3px;color:#222!important}
 
 .author[href$="robertoxmed"]::after {	content: ")"}
 
-.stickied.link .usertext .md .h1, .stickied.link .usertext .md .h2,
-.stickied.link .usertext .md .h3 { color : #fff!important}
+.stickied.link .usertext .md h1 { color : #fff!important}
+.stickied.link .usertext .md h2 { color : #fff!important}
+.stickied.link .usertext .md h3 { color : #fff!important}
+
+.res-commentBoxes .comments-page .comment,
+.res-commentBoxes .comments-page .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment
+{background-color: #F7F7F8 !important;}
+
+.res-commentBoxes .comments-page .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
+{background-color: #dedede !important;}
