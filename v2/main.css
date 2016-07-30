@@ -4000,7 +4000,7 @@ animation-timing-function: ease-in;
 .md table th { text-align:center }
 .md table thead { background-color:#929292 }
 .md table tbody tr:nth-child(odd){ background-color:transparent }
-.md table tbody tr:nth-child(even){ background-color:#AEAEAE; }
+.md table tbody tr:nth-child(even){ background-color:#CCC; }
 .md table td,.md table th { padding:4px 8px;border-right:1px solid #ccc }
 
 body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
@@ -4043,7 +4043,7 @@ body.res-nightmode .md>ol,body.res-nightmode .md>ul { border-color:#666 }
 .md ol li ol,.md ul li ul { padding:0 }
 
 .md ol li:nth-child(odd),.md ul li:nth-child(odd) {
-	background-color:#AEAEAE;
+	background-color:#CCC;
 }
 .md ol li:before{counter-increment:inc 1;content:counter(inc,decimal) '. ';margin-right:4px;}
 
@@ -4358,11 +4358,19 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment
-{background-color: #F7F7F8 !important;}
+{background-color: #dedede !important;}
 
 .res-commentBoxes .comments-page .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment,
 .res-commentBoxes .comments-page .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment
-{background-color: #dedede !important;}
+{background-color: #c5c5c5 !important;}
+
+#ad_sponsorship {
+	display: none!important
+}
+
+.link .entry .tagline .userattrs a { background-color: transparent!important}
+
+.link .entry .tagline .userattrs a.moderator {background-color: purple!important;}
