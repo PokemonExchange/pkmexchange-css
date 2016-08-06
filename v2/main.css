@@ -415,7 +415,7 @@ body {
 					margin: 1px -100% 1px -100%;
 				}
 
-					.link .score.likes {color: #ff6422;}
+					.link .score.likes {color: #800080;}
 					.link .score.dislikes {color: #5c5bd7;}
 
 				.arrow {
@@ -451,7 +451,7 @@ body {
 									opacity: 1;
 									z-index:100;
 									content: " ";
-									background-color:#ff5500;
+									background-color:#ba01ba;
 									border-radius: 28px;
 									animation: upvote 0.35s ease-out forwards;
 									-webkit-animation: upvote 0.35s ease-out forwards;
@@ -1428,7 +1428,7 @@ body {
 				padding: 8px 16px;
 				line-height: 26px;
 				border: none;
-				background-color: #800080;
+				background-color: #898ea1;
 				color: #fff;
 				border-radius: 2px;
 			}
@@ -1451,7 +1451,7 @@ body {
 			/* Updated Reddit Infobar */
 			.reddit-infobar.with-icon {
 				border: none;
-				background: #fff;
+				background: #898ea1;
 				box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0px 4px 0 rgba(0,0,0,.12);
 				margin: 0 0 16px 0;
 			}
@@ -1460,12 +1460,12 @@ body {
 
 
 				/* Locked Post */
-				.reddit-infobar.with-icon.locked-infobar {background-color:#800080 }
+				.reddit-infobar.with-icon.locked-infobar {background-color:#898ea1 }
 					.reddit-infobar.with-icon.locked-infobar .md {color: #fff;}
 
 				.reddit-infobar.with-icon.locked-infobar p:after {content: " Sort comments by new to find out more."}
 				.reddit-infobar.with-icon.locked-infobar:before {
-					background-color: #800080;
+					background-color: #898ea1;
 					border-right: 1px solid rgba(0, 0, 0, 0.08);
 				}
 
@@ -4417,4 +4417,6 @@ li>code,p>code{padding:0 3px;color:#222!important}
 
 .thing.stickied.link .md a { color: #1068cb!important }
 
-.link .score { color: #655f5f!important}
+.link .score { color: #b3b3b3!important}
+
+.comments-page .stickied.link .score { color: #9f9f9f!important}
