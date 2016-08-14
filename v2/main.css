@@ -3408,20 +3408,20 @@ height: 24px;
 
 
 .flair-masterball::before, a[href$="#bs-masterball"] {
-background-position: 0px 0px;
+background-position: 0px -2px;
 }
 
 .flair-ultraball::before, a[href$="#bs-ultraball"] {
-background-position: -24px 0px;
+background-position: -24px -2px;
 }
 
 .flair-greatball::before, a[href$="#bs-greatball"] {
-background-position: -48px 0px;
+background-position: -48px -2px;
 }
 
 .flair-pokeball::before, a[href$="#bs-pokeball"] {
 background-image: url(%%ballsprites%%);
-background-position: -72px 0px;
+background-position: -72px -2px;
 width: 24px;
 height: 24px;
 }
@@ -3471,7 +3471,7 @@ background-position: -96px -48px;
 }
 
 .flair-cherishball::before, a[href$="#bs-cherishball"] {
-background-position: 0px -72px;
+background-position: 0px -74px;
 }
 
 .flair-fastball::before, a[href$="#bs-fastball"] {
@@ -3491,7 +3491,7 @@ background-position: -96px -72px;
 }
 
 .flair-parkball::before, a[href$="#bs-parkball"] {
-background-position: -120px -72px;
+background-position: -120px -74px;
 }
 
 a[href$="#bs-loveball"] {
@@ -3511,19 +3511,19 @@ background-position: -72px -96px;
 }
 
 .flair-dreamball::before, a[href$="#bs-dreamball"] {
-background-position: -96px -96px;
+background-position: -96px -98px;
 }
 
 /* Reference flairs */
 .flair-bigmushroom::after, a[href$="#ref-bigmushroom"] {
-background-position: 0px 0px;
-width: 24px;
+background-position: 6px 0px;
+width: 30px;
 height: 24px;
 }
 
 .flair-bignugget::after, a[href$="#ref-bignugget"] {
-background-position: -29px 0px;
-width: 24px;
+background-position: -24px 0px;
+width: 30px;
 height: 24px;
 }
 
