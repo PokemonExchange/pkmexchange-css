@@ -3954,6 +3954,10 @@ background-position: -695px -872px;
 	background-position: -511px -841px;
 }
 
+.flair-megasharpedo::before, a[href^="#pk-shedinja"] {
+	background-position: -543px -304px;
+}
+
 @-webkit-keyframes megabilly{
 29% { background-position: 0px -35px}
 30% { background-position: 0px 0px }
@@ -4390,6 +4394,10 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .author[href$="robertoxmed"]::before { content: "Vovvy (" }
 
 .author[href$="robertoxmed"]::after {	content: ")"}
+
+.author[href$="Upper90175"]::before { content: "Jay (" }
+
+.author[href$="Upper90175"]::after {	content: ")"}
 
 .res-commentBoxes .comments-page .comment,
 .res-commentBoxes .comments-page .comment .comment .comment,
