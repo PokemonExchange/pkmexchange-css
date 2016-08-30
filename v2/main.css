@@ -3958,6 +3958,10 @@ background-position: -695px -872px;
 	background-position: -540px -302px;
 }
 
+.flair-charmander::before, a[href^="#pk-charmander"] {
+	background-position: -152px -0px;
+}
+
 @-webkit-keyframes megabilly{
 29% { background-position: 0px -35px}
 30% { background-position: 0px 0px }
