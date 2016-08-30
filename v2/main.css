@@ -3954,8 +3954,8 @@ background-position: -695px -872px;
 	background-position: -511px -841px;
 }
 
-.flair-megasharpedo::before, a[href^="#pk-shedinja"] {
-	background-position: -543px -304px;
+.flair-shedinja::before, a[href^="#pk-shedinja"] {
+	background-position: -540px -302px;
 }
 
 @-webkit-keyframes megabilly{
