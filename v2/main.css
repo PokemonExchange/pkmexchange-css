@@ -3959,7 +3959,12 @@ background-position: -695px -872px;
 }
 
 .flair-charmander::before, a[href^="#pk-charmander"] {
-	background-position: -152px -0px;
+	background-position: -152px -3px;
+}
+
+.flair-chainsaw::before, a[href^="#pk-chainsaw"] {
+	background-position: -830px -872px;
+	width: 48px;
 }
 
 @-webkit-keyframes megabilly{
