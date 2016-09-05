@@ -993,6 +993,25 @@ body {
 					background-position: 0px -234px;
 				}
 
+				.linkflair-trade .linkflairlabel {
+					text-align: left!important;
+					background: none;
+					content: "";
+					padding: 1px 6px 1px 6px;
+					width: 104px;
+					max-width: 104px;
+					height: 27px;
+					border-radius: 1px;
+					border: 0px solid;
+					cursor: default;
+					vertical-align: middle;
+					position: relative;
+					background-image: url(%%linkflairs%%);
+					text-indent: -9999em;
+					background-position: 0px -260px;
+				}
+
+
 						/*.linkflair-mod a {color: #800080!important;}*/
 						.linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {background: url(%%spritesheet%%) -96px -48px !important;}
 
@@ -4227,6 +4246,14 @@ li>code,p>code{padding:0 3px;color:#222!important}
 	display: block;
 	background-image: url(%%linkflairs%%);
 	background-position: -3px -235px;
+	width: 100px;
+	height: 24px;
+}
+
+.md [href$="#trade"] {
+	display: block;
+	background-image: url(%%linkflairs%%);
+	background-position: -3px -261px;
 	width: 100px;
 	height: 24px;
 }
