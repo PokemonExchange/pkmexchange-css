@@ -80,7 +80,7 @@ body {
 	/* Header */
 	#header {
 		margin: 0px;
-		height: 196px;
+		height: 200px;
 		border: none;
 		background-color: #30333A;
 		background-image: url(%%headerimg%%);
@@ -328,7 +328,7 @@ body {
 		/* Tabmenu (hot/new/top) */
 		#header-bottom-left {
 			position: absolute;
-			top: 170px;
+			top: 174px;
 			left: 16px;
 			right: 384px;
 		}
@@ -4469,4 +4469,4 @@ li>code,p>code{padding:0 3px;color:#222!important}
 
 .subreddit-rules-page { background-color: #dedede !important}
 
-.res-navTop #header-bottom-right{top:168px!important}
+.res-navTop #header-bottom-right{top:172px!important}
