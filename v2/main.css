@@ -318,7 +318,7 @@ body {
 				display: inline-block;
 				line-height: 16px;
 				color: #fff;
-				font-size: 24px;
+				font-size: 22px;
 				font-weight: bold;
 				font-family: Lato, arial, sans-serif;
 				font-variant: normal;
@@ -4470,7 +4470,5 @@ li>code,p>code{padding:0 3px;color:#222!important}
 .comments-page .stickied.link .score { color: #9f9f9f!important}
 
 .subreddit-rules-page { background-color: #dedede !important}
-
-.titlebox form.flairtoggle, .checkbox .tagline {display:none}
 
 .res-navTop #header-bottom-right{top:168px!important}
