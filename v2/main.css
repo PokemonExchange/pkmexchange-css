@@ -306,7 +306,7 @@ body {
 			height: 75px;
 			background-image: url(%%alienred%%);
 			background-position: -00px -00px;
-			margin: -18px 8px 0 0;
+			margin: -18px -4px 0 0;
 			vertical-align: top;
 			font-size: 0px;
 		}
@@ -316,26 +316,26 @@ body {
 
 			#header .pagename a {
 				display: inline-block;
-				line-height: 60px;
+				line-height: 16px;
 				color: #fff;
-				font-size: 26px;
+				font-size: 24px;
 				font-weight: bold;
 				font-family: Lato, arial, sans-serif;
 				font-variant: normal;
-				text-shadow: 0px 1px 12px rgba(0, 0, 0, 0.2);
+				text-shadow: 1px 1px rgba(51, 51, 51, 0.5);
 			}
 
 
 		/* Tabmenu (hot/new/top) */
 		#header-bottom-left {
 			position: absolute;
-			top: 100px;
+			top: 129px;
 			left: 16px;
 			right: 384px;
 		}
 
 			#header .tabmenu {
-				margin: -6px 0 0 0;
+				margin: -28px 370px 0;
 				display: block;
 				height: 42px;
 				line-height: 42px;
@@ -348,19 +348,20 @@ body {
 					position: absolute;
 					left: -16px;
 					right: -384px;
-					background-color: rgba(0,0,0,0.24);
-					height: 42px;
+					background-color: rgba(0,0,0,0.45);
+					height: 32px;
 					z-index: -1;
+					top: 35px
 				}
 
 				#header .tabmenu ul li {}
 
 				#header .tabmenu li a {
-					margin: 0 16px;
+					margin: 0 12px;
 					padding: 0;
 					text-transform: uppercase;
 					font-weight: normal;
-					font-size: 14px;
+					font-size: 13px;
 					font-family: Lato, arial, sans-serif;
 					color: rgba(255,255,255,0.7);
 					display: inline-block;
@@ -4472,4 +4473,4 @@ li>code,p>code{padding:0 3px;color:#222!important}
 
 .titlebox form.flairtoggle, .checkbox .tagline {display:none}
 
-.res-navTop #header-bottom-right{top:165px!important}
+.res-navTop #header-bottom-right{top:168px!important}
